@@ -39,7 +39,7 @@ const successUI = (platform, ext) => `
 
 module.exports = {
   config: {
-    name: "alldl",
+    name: "download",
     version: "4.0",
     author: "Arafat",
     role: 0,
