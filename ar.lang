@@ -1,0 +1,38 @@
+# index.js
+Goat.newVersionDetected=أنت تستخدم الإصدار %1، أحدث إصدار هو %2. يرجى التحديث لاستخدام البوت بشكل أفضل عبر كتابة الأمر: %3
+Goat.autoRestart1=سيتم إعادة تشغيل البوت تلقائياً في %1
+Goat.autoRestart2=سيتم إعادة تشغيل البوت عبر مهمة مجدولة: %1
+Goat.googleApiTokenExpired=انتهت صلاحية رمز تحديث Google API، يرجى الحصول على رمز جديد من https://developers.google.com/oauthplayground/
+
+# bot/login/login.js
+login.currentlyLogged=جاري تسجيل الدخول
+login.loginSuccess=تم تسجيل الدخول بنجاح
+login.loginError=حدث خطأ أثناء تسجيل الدخول
+login.runBot=تم تشغيل البوت بنجاح، وبدأ في استقبال رسائل المستخدمين
+login.userBanned=لقد تم حظرك من استخدام البوت!!
+login.inputEmail=> يرجى إدخال البريد الإلكتروني أو رقم الهاتف لحساب فيسبوك:
+login.inputPassword=> يرجى إدخال كلمة المرور:
+login.input2FA=> يرجى إدخال كود التحقق 2FA (اتركه فارغاً إذا لم تكن مفعلاً له):
+
+# bot/handler/handlerEvents.js
+handlerEvents.userBanned=لقد تم「حظرك⛔」من استخدام البوت\n» السبب: %1\n» الوقت: %2\n» معرف المستخدم: %3
+handlerEvents.threadBanned=تم「حظر⛔」هذه المجموعة من استخدام البوت\n» السبب: %1\n» الوقت: %2\n» معرف المجموعة: %3
+handlerEvents.onlyAdminBox=⚠️ | هذه المجموعة مفعلة حالياً لمشرفي المجموعة فقط لاستخدام البوت
+handlerEvents.onlyAdminBot=❌ | حالياً فقط مدير البوت يمكنه استخدامه
+handlerEvents.commandNotFound=الأمر "%1" غير موجود، اكتب「 %2help 」لرؤية جميع الأوامر المتاحة
+handlerEvents.commandNotFound2=> الأمر الذي تستخدمه غير موجود، اكتب「 %1help 」لرؤية جميع الأوامر المتاحة
+handlerEvents.commandSyntaxError=الأمر الذي تستخدمه له صيغة خاطئة، يرجى كتابة %1help %2 لرؤية تفاصيل كيفية استخدام هذا الأمر
+handlerEvents.onlyAdmin=❌ | فقط مديرو المجموعة يمكنهم استخدام الأمر "%1"
+handlerEvents.onlyAdminBot2=❌ | فقط مدير البوت يمكنه استخدام الأمر "%1"
+handlerEvents.waitingForCommand=⏱ أنت في وقت انتظار لاستخدام هذا الأمر، يرجى العودة بعد %1 ثانية
+handlerEvents.errorOccurred=❌ [ %1 ]\nحدث خطأ في الأمر "%2"\n\n%3
+
+# utils.js
+utils.errorOccurred=❌ حدث خطأ:\n\n%1
+
+# for command
+command.restartedBot=تم إعادة تشغيل البوت بنجاح
+
+# database/controller/index.js
+indexController.connectMongoDBSuccess=تم الاتصال بقاعدة بيانات MongoDB بنجاح!
+indexController.connectMongoDBError=حدث خطأ أثناء الاتصال بقاعدة بيانات MongoDB:
