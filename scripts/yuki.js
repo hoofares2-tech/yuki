@@ -1,8 +1,8 @@
-const axios = require("axios");
+gptxios = require("axios");
 
 module.exports = {
   config: {
-    name: "gpt",
+    name: "yuki",
     aliases: ["chatgpt"],
     version: "1.0.0",
     author: "𝐀𝐫𝐚𝐟𝐚𝐭",
